@@ -43,7 +43,6 @@ impl Password {
 			.filter(|c| c == &self.character)
 			.collect::<Vec<char>>()
 			.len() as u32;
-		// println!("# of {} in {}: {}", self.character, self.password, res);
 		res >= self.min && res <= self.max
 	}
 	pub fn is_valid_two(&self) -> bool {
@@ -53,19 +52,6 @@ impl Password {
 		let pos_b: bool = char_b == Some(self.character);
 
 		let res = (pos_a && !pos_b) || (!pos_a && pos_b);
-
-		// println!(
-		// 	"{}-{} {}: {} \t\t {}={:?}, {}={:?}, {:?}",
-		// 	self.min,
-		// 	self.max,
-		// 	self.character,
-		// 	self.password,
-		// 	self.min,
-		// 	char_a,
-		// 	self.max,
-		// 	char_b,
-		// 	res
-		// );
 
 		res
 	}
