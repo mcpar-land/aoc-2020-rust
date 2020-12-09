@@ -19,3 +19,4 @@ cargo run 3
 - [Day 6](src/days/day6.rs) - [Spec](https://adventofcode.com/2020/day/6)
 - [Day 7](src/days/day7.rs) - [Spec](https://adventofcode.com/2020/day/7)
 - [Day 8](src/days/day8.rs) - [Spec](https://adventofcode.com/2020/day/8)
+- [Day 9](src/days/day9.rs) - [Spec](https://adventofcode.com/2020/day/9)
