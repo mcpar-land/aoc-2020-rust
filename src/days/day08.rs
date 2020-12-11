@@ -6,8 +6,8 @@ use nom::{
 	IResult,
 };
 
-pub fn day8(_: Vec<String>) {
-	let input = crate::util::read_input("day8.txt");
+pub fn day08(_: Vec<String>) {
+	let input = crate::util::read_input("day08.txt");
 
 	let mut computer = Computer::from_str(input.as_str());
 	computer.run();

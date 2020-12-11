@@ -1,6 +1,6 @@
-pub fn day9(_: Vec<String>) {
+pub fn day09(_: Vec<String>) {
 	let data =
-		XmasData::from_str(crate::util::read_input("day9.txt").as_str(), 25);
+		XmasData::from_str(crate::util::read_input("day09.txt").as_str(), 25);
 
 	println!("{:?}", data.cipher_values(0));
 	println!("First invalid value: {:?}", data.invalids()[0].1);

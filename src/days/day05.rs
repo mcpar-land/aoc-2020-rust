@@ -3,8 +3,8 @@ use std::convert::TryInto;
 const ROWS: usize = 128;
 const COLUMNS: usize = 8;
 
-pub fn day5(_: Vec<String>) {
-	let input_raw = crate::util::read_input("day5.txt");
+pub fn day05(_: Vec<String>) {
+	let input_raw = crate::util::read_input("day05.txt");
 	let seats = input_raw
 		.split("\n")
 		.map(|input| Partition::new(input))

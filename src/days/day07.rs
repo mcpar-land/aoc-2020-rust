@@ -8,8 +8,8 @@ use nom::{
 };
 use std::collections::{HashMap, HashSet};
 
-pub fn day7(_: Vec<String>) {
-	let input_raw = crate::util::read_input("day7.txt");
+pub fn day07(_: Vec<String>) {
+	let input_raw = crate::util::read_input("day07.txt");
 
 	let rules = RuleList::from_str(input_raw.as_str());
 	println!("Processed {} rules", rules.0.len());

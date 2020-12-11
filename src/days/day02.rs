@@ -5,8 +5,8 @@ use nom::{
 	IResult,
 };
 
-pub fn day2(_: Vec<String>) -> () {
-	let input_raw = crate::util::read_input("day2.txt");
+pub fn day02(_: Vec<String>) -> () {
+	let input_raw = crate::util::read_input("day02.txt");
 	let (_, list) = password_list(&input_raw).unwrap();
 	println!("Parsed {} passwords", list.len());
 	let valid_count_one = list

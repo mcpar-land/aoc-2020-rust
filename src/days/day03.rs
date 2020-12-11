@@ -1,5 +1,5 @@
-pub fn day3(_: Vec<String>) {
-	let input_raw = crate::util::read_input("day3.txt");
+pub fn day03(_: Vec<String>) {
+	let input_raw = crate::util::read_input("day03.txt");
 	let field = TreeField::new(&input_raw);
 	let slopes: Vec<(usize, usize)> =
 		vec![(1, 1), (3, 1), (5, 1), (7, 1), (1, 2)];

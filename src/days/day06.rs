@@ -1,7 +1,7 @@
 use std::collections::HashSet;
 
-pub fn day6(_: Vec<String>) {
-	let input_raw = crate::util::read_input("day6.txt");
+pub fn day06(_: Vec<String>) {
+	let input_raw = crate::util::read_input("day06.txt");
 	let groups = input_raw
 		.split("\n\n")
 		.map(|input| input.into())

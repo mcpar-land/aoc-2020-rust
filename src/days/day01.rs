@@ -1,8 +1,8 @@
 use indicatif::ProgressBar;
 
-pub fn day1(_: Vec<String>) -> () {
+pub fn day01(_: Vec<String>) -> () {
 	println!("Day 1!");
-	let input_raw: String = crate::util::read_input("day1.txt");
+	let input_raw: String = crate::util::read_input("day01.txt");
 	let input: Vec<u32> = input_raw
 		.split_whitespace()
 		.map(|n| n.parse::<u32>().unwrap())

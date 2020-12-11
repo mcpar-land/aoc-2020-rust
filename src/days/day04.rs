@@ -2,8 +2,8 @@ use lazy_static::lazy_static;
 use nom::character::complete::digit1;
 use regex::Regex;
 
-pub fn day4(_: Vec<String>) {
-	let input_raw = crate::util::read_input("day4.txt");
+pub fn day04(_: Vec<String>) {
+	let input_raw = crate::util::read_input("day04.txt");
 	let passports = input_raw
 		.split("\n\n")
 		.map(|input| Passport::from_str(input))
