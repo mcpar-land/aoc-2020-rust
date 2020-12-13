@@ -11,6 +11,7 @@ pub mod days {
 	pub mod day07;
 	pub mod day08;
 	pub mod day09;
+	pub mod day10;
 }
 
 fn main() {
@@ -26,6 +27,7 @@ fn main() {
 	funcs.insert(7, crate::days::day07::day07);
 	funcs.insert(8, crate::days::day08::day08);
 	funcs.insert(9, crate::days::day09::day09);
+	funcs.insert(10, crate::days::day10::day10);
 
 	let day_picked: u16 = args.get(1).unwrap().parse().unwrap();
 	println!("Running Advent of Code: Day {}", day_picked);
