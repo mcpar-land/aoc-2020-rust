@@ -50,3 +50,6 @@ cargo run 3
 - [Day 13](src/days/day13.rs) - [Spec](https://adventofcode.com/2020/day/13)
   - [x] Part 1
   - [ ] Part 2
+- [Day 14](src/days/day14.rs) - [Spec](https://adventofcode.com/2020/day/14)
+  - [x] Part 1
+  - [ ] Part 2
